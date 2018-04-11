@@ -1,0 +1,16 @@
+@import url(juggler_body.css);
+@import url(juggler_animation.css);
+@import url(juggler_ball.css);
+
+.juggler_with_ball {
+    height: 350px;
+    width: 320px;
+    margin:150px auto;
+    position: relative;
+}
+.juggler {
+    height: 100%;
+    width: 100%;
+}
+
+

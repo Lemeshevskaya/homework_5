@@ -1,0 +1,207 @@
+/*move arm*/
+@keyframes arm_move_forearm  {
+    0%, 100% {
+        transform: rotate(0deg)
+    }
+    33% {
+        transform: rotate(4deg)
+    }
+    66% {
+        transform: rotate(-4deg)
+    }
+}
+@keyframes arm_move_left {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(-360deg)
+    }
+}
+@keyframes arm_move_right {
+    from {
+        transform: rotate(-180deg)
+    }
+
+    to {
+        transform: rotate(180deg)
+    }
+}
+/*move leg*/
+@keyframes leg_move_left {
+    0%,100% {
+        transform: perspective(200px) translateZ(0px) rotate(-8deg);
+    }
+    30% {
+        transform: perspective(200px) translateZ(40px) rotate(-8deg);
+    }
+    80% {
+        transform: perspective(200px) translateZ(-40px) rotate(-9deg);
+    }
+}
+@keyframes leg_move_right {
+    0%, 100% {
+        transform: perspective(200px) translateZ(0px) rotate(8deg);
+    }
+    30% {
+        transform: perspective(200px) translateZ(-40px) rotate(8deg);
+    }
+    80% {
+        transform: perspective(200px) translateZ(40px) rotate(9deg);
+    }
+}
+/*move ball*/
+@keyframes action_ball_1 {
+    0% {
+        top: -30px;
+        transform: rotate(-90deg)translateX(35px);
+    }
+    12.5% {
+        top: -20px;
+        transform: rotate(-135deg) translateX(35px);
+    }
+    25% {
+        top: 100px;
+        transform: rotate(-180deg) translateX(45px);
+    }
+    44% {
+        top: 190px;
+        transform: rotate(-225deg) translateX(53px);
+    }
+    50% {
+        top: 190px;
+        transform: rotate(-270deg)translateX(50px);
+    }
+    56% {
+        top: 190px;
+        transform:rotate(-315deg) translateX(50px);
+    }
+    75% {
+        top: 100px;
+        transform: rotate(-360deg)translateX(45px);
+    }
+    87.5% {
+        top: -20px;
+        transform:rotate(-405deg) translateX(35px);
+    }
+    100% {
+        top: -30px;
+        transform:rotate(-450deg) translateX(35px);
+    }
+}
+@keyframes action_ball_2 {
+    0% {
+        top: 190px;
+        transform: rotate(-270deg) translateX(50px);
+    }
+    6% {
+        top: 190px;
+        transform: rotate(-315deg) translateX(50px);
+    }
+    25% {
+        top: 100px;
+        transform: rotate(-360deg) translateX(45px);
+    }
+    44% {
+        top: -20px;
+        transform: rotate(-405deg) translateX(35px);
+    }
+    50% {
+        top: -30px;
+        transform: rotate(-450deg)translateX(35px);
+    }
+    56% {
+        top: -20px;
+        transform:rotate(-495deg) translateX(35px);
+    }
+    75% {
+        top: 100px;
+        transform: rotate(-540deg)translateX(45px);
+    }
+    94% {
+        top: 190px;
+        transform:rotate(-585deg) translateX(53px);
+    }
+    100% {
+        top: 190px;
+        transform:rotate(-630deg) translateX(50px);
+    }
+}
+@keyframes  action_ball_3 {
+    0% {
+        top: 100px;
+        transform: rotate(90deg)translateY(45px);
+    }
+    12.5% {
+        top: -20px;
+        transform: rotate(135deg) translateY(35px);
+    }
+    25% {
+        top: -30px;
+        transform: rotate(180deg) translateY(35px);
+    }
+    37.5% {
+        top: -20px;
+        transform: rotate(225deg) translateY(35px);
+    }
+    50% {
+        top: 100px;
+        transform: rotate(270deg)translateY(45px);
+    }
+    69% {
+        top: 190px;
+        transform:rotate(315deg) translateY(53px);
+    }
+    75% {
+        top: 190px;
+        transform: rotate(360deg)translateY(50px);
+    }
+    81.5% {
+        top: 190px;
+        transform:rotate(405deg) translateY(50px);
+    }
+    100% {
+        top: 100px;
+        transform:rotate(450deg) translateY(45px);
+    }
+}
+@keyframes  action_ball_4 {
+    0% {
+        top: 100px;
+        transform: rotate(270deg)translateY(45px);
+    }
+    19% {
+        top: 190px;
+        transform: rotate(315deg) translateY(53px);
+    }
+    25% {
+        top: 190px;
+        transform: rotate(360deg) translateY(50px);
+    }
+    31% {
+        top: 190px;
+        transform: rotate(405deg) translateY(50px);
+    }
+    50% {
+        top: 100px;
+        transform: rotate(450deg)translateY(45px);
+    }
+    62.5% {
+        top: -20px;
+        transform:rotate(495deg) translateY(35px);
+    }
+    75% {
+        top: -30px;
+        transform: rotate(540deg)translateY(35px);
+    }
+    87.5% {
+        top: -20px;
+        transform:rotate(585deg) translateY(35px);
+    }
+    100% {
+        top: 100px;
+        transform:rotate(630deg) translateY(45px);
+    }
+}
+
+

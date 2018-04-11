@@ -1,0 +1,33 @@
+/*ball*/
+.juggler_ball {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: radial-gradient(40% 80%, #49e1ff 40%, #1f22dd 80%);
+    transform-origin: 50% 50%;
+}
+.juggler_ball_1 {
+    left: 83px;
+    animation: action_ball_1 2s infinite linear;
+}
+.juggler_ball_2 {
+    left: 83px;
+    animation: action_ball_2 2s infinite linear;
+}
+.juggler_ball_3 {
+    left: 210px;
+    animation: action_ball_3 2s infinite linear;
+}
+.juggler_ball_4 {
+    left: 210px;
+    animation: action_ball_4 2s infinite linear;
+}
+/*circle*/
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: -40px auto;
+    background: #1f22dd;
+}
